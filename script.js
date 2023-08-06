@@ -31,5 +31,5 @@ detailsForm.addEventListener('submit', function (e) {
     }
 
   // Example action: Redirect to a new page
-  window.location.href = 'mainPage.html';
+  window.location.href = "mainPage.html";
 });
