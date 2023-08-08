@@ -7,7 +7,7 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0%;
   padding: 20px;
 }
 
@@ -36,17 +36,17 @@ nav ul li a {
 
 /* Main Content Styles */
 main {
-  padding: 20px;
+  /* padding: 20px; */
 }
 
-section {
+#sec2{
   margin-bottom: 40px;
 }
 
 /* Form Styles */
 form {
   max-width: 400px;
-  margin: 0 auto;
+  margin: auto;
   padding: 20px;
   border: 1px solid #ddd;
 }
@@ -63,21 +63,48 @@ form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
+  margin-right: 10px;
   border: 1px solid #ddd;
 }
 
 form button {
-  padding: 10px 20px;
-  background-color: #333;
+  padding: 10px 30px;
+  background-color: darkgray;
   color: #fff;
   border: none;
   cursor: pointer;
+  border-radius: 10px;
+  margin: 0px 22% 0px 0px;
 }
-
-/* Footer Styles */
+#detailsForm>button[type="submit"] {
+ /* margin-left: 25px; */
+   /* margin-right: 10%; */
+}
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
+  position: fixed;
+  padding: 10px 10px 10px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: grey;
   text-align: center;
+}
+#sec1>h1{
+  text-shadow: -3px 3px 3px grey;
+  font-size: 30px;
+}
+#sec1{
+  background-color: coral;
+  margin: 0px;
+  padding: 20px;
+}
+#sec2>h2{
+  text-align: center;
+}
+#sec2>form{
+ background-image: url(../IMAGES/cameraBackgroundImage.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ color: #fff;
 }
