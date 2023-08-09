@@ -18,27 +18,27 @@ header {
   padding: 20px;
 }
 
-nav ul {
+nav>ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-nav ul li {
+nav>ul>li {
   display: inline-block;
   margin-right: 10px;
+  padding-right: 60px;
 }
-
-nav ul li a {
+nav>ul>li>a {
   color: #fff;
   text-decoration: none;
+  padding: 20px;
 }
-
-/* Main Content Styles */
-main {
-  /* padding: 20px; */
+nav>ul>li>a:hover{
+  color: black;
+  background-color: #ddd;
+  text-decoration: none;
 }
-
 #sec2{
   margin-bottom: 40px;
 }
@@ -76,10 +76,6 @@ form button {
   border-radius: 10px;
   margin: 0px 22% 0px 0px;
 }
-#detailsForm>button[type="submit"] {
- /* margin-left: 25px; */
-   /* margin-right: 10%; */
-}
 footer {
   position: fixed;
   padding: 10px 10px 10px 10px;
@@ -92,6 +88,10 @@ footer {
 #sec1>h1{
   text-shadow: -3px 3px 3px grey;
   font-size: 30px;
+}
+cite{
+  text-align: center;
+  text-transform: uppercase;
 }
 #sec1{
   background-color: coral;
@@ -107,4 +107,8 @@ footer {
  background-position: center;
  background-size: cover;
  color: #fff;
+ padding: 10px 40px 10px 10px;
+}
+#detailsForm{
+  
 }
