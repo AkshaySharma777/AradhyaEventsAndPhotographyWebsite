@@ -39,9 +39,7 @@ nav>ul>li>a:hover{
   background-color: #ddd;
   text-decoration: none;
 }
-#sec2{
-  margin-bottom: 40px;
-}
+
 
 /* Form Styles */
 form {
@@ -89,9 +87,14 @@ footer {
   text-shadow: -3px 3px 3px grey;
   font-size: 30px;
 }
-cite{
+.quote{
   text-align: center;
   text-transform: uppercase;
+  color: darkblue;
+  font-size: 20px;
+  font-family: cursive;
+  font-style: italic;
+  text-transform: capitalize;
 }
 #sec1{
   background-color: coral;
@@ -101,6 +104,11 @@ cite{
 #sec2>h2{
   text-align: center;
 }
+#sec2{
+  position: relative;
+  margin-bottom: 40px;
+
+}
 #sec2>form{
  background-image: url(../IMAGES/cameraBackgroundImage.jpg);
  background-repeat: no-repeat;
@@ -108,7 +116,14 @@ cite{
  background-size: cover;
  color: #fff;
  padding: 10px 40px 10px 10px;
+ position: absolute;
+ margin-left: 40%;
 }
-#detailsForm{
-  
+[type]:hover,[id="purpose"]:hover{
+  background-color: lightpink;
+}
+.scrollingTop{
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  font-size: xx-large;
 }
